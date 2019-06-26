@@ -4,7 +4,9 @@ import "./SearchBar.css";
 class SearchBar extends React.Container {
   render() {
     return (
+      <div>
 
+      </div>
     )
   }
 }

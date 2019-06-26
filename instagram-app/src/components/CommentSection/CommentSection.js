@@ -2,13 +2,13 @@ import React from 'react';
 import "./CommentSection.css";
 
 class CommentSection extends React.Component {
-  construtor(props) {
+  constructor(props) {
     super(props)
     this.state = {value: ''};
   }
 
   handleChange(e) {
-    this.setState({ e.target.value })
+    this.setState({ value: e.target.value });
   }
 
   render() {

@@ -1,2 +1,12 @@
 import React from 'react';
-import "./CommentSection.css"
+import "./SearchBar.css";
+
+class SearchBar extends React.Container {
+  render() {
+    return (
+
+    )
+  }
+}
+
+export default SearchBar

@@ -7,11 +7,15 @@ import dummyData from './dummy-data.js';
 import PostContainer from "./components/PostContainer/PostContainer.js"
 // import CommentSection from "./components/CommentSection/CommentSection.js"
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <SearchBar />
-      {dummyData.map(item => <PostContainer key={item} value={item} />)}
+      <div className="posts">
+        {props.dummyData.map(data => (
+          <PostContainer data={data} />
+        ))}
+      </div>
     </div>
   );
 }

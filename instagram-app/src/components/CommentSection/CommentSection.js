@@ -15,7 +15,7 @@ class CommentSection extends React.Component {
     return (
       <div>
         array
-        <input type="text" name="comment" />
+        <input type="text" name="comment" placeholder="comment" />
       </div>
     )
   }
